@@ -254,6 +254,9 @@
 
   /* ---------- projects ---------- */
   .project-grid, .approach-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:22px; }
+  .project-grid, .approach-grid, .skill-grid, .impact-grid{ min-width:0; }
+  .project-card{ min-width:0; }
+  .project-detail, .project-desc{ overflow-wrap:anywhere; word-break:break-word; }
   .approach-note{ color:var(--paper-dim); margin:-20px 0 26px; font-size:0.95rem; }
   .filter-row{ display:flex; flex-wrap:wrap; gap:10px; margin:-14px 0 26px; }
   .filter-btn{
