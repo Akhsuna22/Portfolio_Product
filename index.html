@@ -184,6 +184,8 @@
     transition:border-color .3s, color .3s, transform .2s, background .3s;
   }
   .contact-row a:hover{ color:var(--space); background:var(--amber); border-color:var(--amber); transform:translateY(-2px); }
+  .contact-row a.resume-btn{ background:var(--amber); border-color:var(--amber); color:var(--space); font-weight:600; }
+  .contact-row a.resume-btn:hover{ background:transparent; color:var(--amber); }
   @keyframes rise{ from{opacity:0; transform:translateY(14px);} to{opacity:1; transform:translateY(0);} }
   @media (prefers-reduced-motion: reduce){
     .kicker,.line-hi,.line-name span,p.role,.contact-row,#cursor-glow{ animation:none !important; opacity:1 !important; transform:none !important; }
@@ -337,6 +339,7 @@
       </h1>
       <p class="role">Product Manager building AI-powered SaaS and automating the operational workflows behind fulfillment, quality checks, and scheduling.<span class="cursor-bar"></span></p>
       <div class="contact-row">
+        <a class="resume-btn" href="Product_Anushka_Resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
         <a href="https://linkedin.com/in/anushka225" target="_blank" rel="noopener">linkedin.com/in/anushka225</a>
         <a href="mailto:anushka00218@gmail.com">anushka00218@gmail.com</a>
         <a href="tel:+917310875606">+91 7310875606</a>
